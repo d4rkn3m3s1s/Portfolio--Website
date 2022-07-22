@@ -1,0 +1,136 @@
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #000;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+}
+
+.nav-container a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Audiowide", sans-serif;
+}
+
+.nav-container a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-container a.active {
+  background-color: #a149fa;
+  color: white;
+}
+
+.nav-container .icon {
+  display: none;
+}
+
+#main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url(images/code.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 90vh;
+}
+
+#main h1 {
+  font-size: 60px;
+  margin: 300px 0 10px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#main p {
+  font-size: 30px;
+  font-family: "Audiowide", sans-serif;
+}
+
+#about-main {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: #fff;
+}
+
+#about-main h1 {
+  font-family: "Audiowide", sans-serif;
+  align-self: flex-end;
+}
+
+#about-main a {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Audiowide", sans-serif;
+  text-decoration: #fff;
+}
+
+#contact-main {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  color: #fff;
+}
+
+#contact-main h1 {
+  font-family: "Audiowide", sans-serif;
+  align-self: flex-end;
+}
+
+#contact-main a {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Audiowide", sans-serif;
+  text-decoration: #fff;
+}
+
+.slider-container,
+.header-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.page-container {
+  padding: 20px;
+}
+
+#logo {
+  color: #fff;
+  font-family: "Audiowide", sans-serif;
+  margin-right: auto;
+}
+
+#header {
+  background-color: #000;
+  border-bottom: 5px solid #a149fa;
+}
+
+#logo-color {
+  color: #a149fa;
+
+}
+
+#profile-photo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  float: left;
+  padding: 10px;
+}
+
+.breadcrumbs {
+  padding: 10px;
+}
